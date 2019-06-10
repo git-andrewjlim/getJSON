@@ -12,5 +12,7 @@ fetch(myRequest)
         return resp.json();
     })
     .then(function(data){
+        console.log(data.class);
         console.log(data.students);
+        console.log(data.date);
     })
